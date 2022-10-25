@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font: 100 14px 'Roboto';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2em;
 }
 
@@ -52,11 +52,12 @@ button {
 
 .functions {
   display: flex;
-  background: linear-gradient(
-    to bottom,
-    rgba(202, 202, 204, 1) 0%,
-    rgba(196, 194, 204, 1) 100%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(202, 202, 204, 1) 0%,
+      rgba(196, 194, 204, 1) 100%
+    );
 }
 
 .numbers {
@@ -80,11 +81,12 @@ button {
   color: white;
   border-right: 0;
   font-size: 3em;
-  background: linear-gradient(
-    to bottom,
-    rgba(252, 156, 23, 1) 0%,
-    rgba(247, 126, 27, 1) 100%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(252, 156, 23, 1) 0%,
+      rgba(247, 126, 27, 1) 100%
+    );
 }
 
 .dot {
