@@ -35,10 +35,10 @@ button {
   width: 100%;
   color: white;
   background: #1c191c;
-  line-height: 30px;
+  min-height: 5rem;
   font-size: 1.2em;
   flex: 1;
-  padding: 1rem;
+  padding: 0.6rem;
 }
 
 .all-keys {
@@ -52,12 +52,11 @@ button {
 
 .functions {
   display: flex;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(202, 202, 204, 1) 0%,
-      rgba(196, 194, 204, 1) 100%
-    );
+  background: linear-gradient(
+    to bottom,
+    rgba(202, 202, 204, 1) 0%,
+    rgba(196, 194, 204, 1) 100%
+  );
 }
 
 .numbers {
@@ -77,16 +76,23 @@ button {
   font-size: 1.2rem;
 }
 
+.key:hover {
+  background: #b2b2b2;
+}
+
 .operators {
   color: white;
   border-right: 0;
   font-size: 3em;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(252, 156, 23, 1) 0%,
-      rgba(247, 126, 27, 1) 100%
-    );
+  background: linear-gradient(
+    to bottom,
+    rgba(252, 156, 23, 1) 0%,
+    rgba(247, 126, 27, 1) 100%
+  );
+}
+
+.key-operators:hover {
+  background: rgb(255, 198, 118);
 }
 
 .dot {
