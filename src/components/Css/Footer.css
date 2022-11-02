@@ -1,0 +1,21 @@
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 2rem 4%;
+    position: fixed;
+  }
+  
+  footer a {
+    color: #fff;
+  }
