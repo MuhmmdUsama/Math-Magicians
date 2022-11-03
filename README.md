@@ -9,7 +9,7 @@
 - React js
 
 ## Getting Started
-### See on [live]()
+### See on [live](https://dynamic-lokum-fbeeab.netlify.app/)
 
 
 To get a local copy up and running follow these simple example steps:
